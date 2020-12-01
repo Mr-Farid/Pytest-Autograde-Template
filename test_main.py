@@ -20,5 +20,5 @@ def test_case(capsys, num1, result):
   out, err = capsys.readouterr()
   out = out.replace('\n', '')
 
-  assert out == result, 'the output should be {} instead of {}'.format(result, out)
+  assert out == result, 'for an input of {}, the output should be {} instead of {}'.format(input_values, result, out)
   assert err == ''
