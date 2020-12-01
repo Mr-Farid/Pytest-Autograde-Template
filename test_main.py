@@ -1,16 +1,24 @@
 import pytest
 import exercise
 
-def test_exercise(capsys):
-  # include below only if testing with inputs
-  input_values = [5]
+@pytest.mark.parametrize(
+  'num1, result',
+  [
+    (5, '7'),
+  ]
+)
+
+def test_case(capsys, num1, result):
+  
+  input_values = [num1]
+  
   def mock_input(s):
     return input_values.pop(0)
   exercise.input = mock_input
-  # end input testing
-
+  
   exercise.main()
   out, err = capsys.readouterr()
-  
-  assert out == '7\n', "error message"
+  out = out.replace('\n', '')
+
+  assert out == result, 'the output should be {} instead of {}'.format(result, out)
   assert err == ''
