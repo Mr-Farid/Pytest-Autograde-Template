@@ -1,17 +1,20 @@
 # Exercise x.x
-
 ## Instructions
-Go to main.py file and write your code. Commit and push once your program works as intended. Do not edit any other files.
 
-## Problem
+Go to the [exercise file](exercise.py) and complete the question below.
 
-Create a program that ...
+Question detailsssssss
+## Example
 
-## Run Info
-on startup:
+Input: 71
 
-pip install pytest
-
-run:
-
-python -m pytest
+Output: 3
+## Run Test
+Ensure your program passes all the tests. Run test using the following command in terminal:
+```
+pytest -v
+```
+if pytest is not installed, use command:
+```
+pip3 install -u pytest
+```
