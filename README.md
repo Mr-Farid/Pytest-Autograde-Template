@@ -11,15 +11,11 @@ The output should be
 ## Examples
 Sample Input
 ```Python
-3
+stuff
 ```
 Sample Output:
 ```Python
-$
-$$
-$$$
-$$
-$
+stuff
 ```
 ## Run Test
 Ensure your program passes all the tests. 
