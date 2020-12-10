@@ -5,9 +5,9 @@ Go to the [exercise file](exercise.py) and complete the question below.
 
 Create a program that...
 ## Specifications
-The input will be 
+The input will be...
 
-The output should be
+Make sure the output is exactly what is described! The output must be...
 ## Examples
 Sample Input:
 ```Python
