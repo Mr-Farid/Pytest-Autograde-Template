@@ -3,7 +3,7 @@
 
 Go to the [exercise file](exercise.py) and complete the question below.
 
-Create a program that
+Create a program that...
 ## Specifications
 The input will be 
 
@@ -13,7 +13,6 @@ Sample Input
 ```Python
 3
 ```
-
 Sample Output:
 ```Python
 $
@@ -23,11 +22,13 @@ $$
 $
 ```
 ## Run Test
-Ensure your program passes all the tests. Run test using the following command in terminal:
-```
-pytest -v
-```
+Ensure your program passes all the tests. 
+
 if pytest is not installed, use command:
 ```
 pip3 install pytest
+```
+Run test using the following command in the correct folder in terminal:
+```
+pytest -vv
 ```
