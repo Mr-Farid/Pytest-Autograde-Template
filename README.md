@@ -9,7 +9,7 @@ The input will be
 
 The output should be
 ## Examples
-Sample Input
+Sample Input:
 ```Python
 stuff
 ```
