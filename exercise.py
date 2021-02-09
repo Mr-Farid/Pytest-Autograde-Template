@@ -2,7 +2,7 @@
 
 def main():
     # write your code below this line
-    # make sure its idented like the sample code below
+    # make sure its indented like the sample code below
     # replace the sample addition algorithm below 
     x = int(input(''))
     y = int(input(''))
