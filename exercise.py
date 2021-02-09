@@ -1,4 +1,4 @@
-# detailed prompts, detailed prints, and comments not needed for pytest
+# detailed prompts, prints, and comments not needed for pytest
 
 def main():
     # write your code below this line
