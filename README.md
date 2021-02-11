@@ -24,7 +24,11 @@ if pytest is not installed, use command:
 ```
 pip3 install pytest
 ```
-Run test using the following command in the correct folder in terminal:
+If you are using windows and are getting an error where pip is an unrecognized
+internal or external command, check out this [GUIDE](https://appuals.com/fix-pip-is-not-recognized-as-an-internal-or-external-command) to set your PATH
+for Python
+
+Run test using the following command in the project folder in terminal:
 ```
 pytest -vv
 ```
